@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>tools-test</title>
+	</head>
+	<body>
+	</body>
+  <script src="./dist/utils.min.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    // src引入
+    console.log(window.utils)
+  </script>
+
+  <script type="module">
+    // es module 引入
+    import utils from './dist/utils.esm.js'
+    console.log(utils)
+  </script>
+</html>

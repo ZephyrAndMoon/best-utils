@@ -1,0 +1,22 @@
+import isNumber from './isNumber';
+import isString from './isString';
+import isEdge from './isEdge';
+import isFirefox from './isFirefox';
+import isIE from './isIE';
+import isServer from './isServer';
+import hasClass from './hasClass';
+import addClass from './addClass';
+import removeClass from './removeClass';
+declare const _default: {
+    isNumber: (val: unknown) => boolean;
+    isString: (val: unknown) => boolean;
+    isEdge: () => boolean;
+    isFirefox: () => boolean;
+    isIE: () => boolean;
+    isServer: () => boolean;
+    hasClass: (el: HTMLElement, cls: string) => boolean;
+    removeClass: (el: HTMLElement, cls: string) => void;
+    addClass: (el: HTMLElement, cls: string) => void;
+};
+export default _default;
+export { isNumber, isString, isEdge, isFirefox, isIE, isServer, hasClass, removeClass, addClass };

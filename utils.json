@@ -1,0 +1,11 @@
+{
+  "addClass": "./addClass",
+  "hasClass": "./hasClass",
+  "isEdge": "./isEdge",
+  "isFirefox": "./isFirefox",
+  "isIE": "./isIE",
+  "isNumber": "./isNumber",
+  "isServer": "./isServer",
+  "isString": "./isString",
+  "removeClass": "./removeClass"
+}
