@@ -1,6 +1,6 @@
 /**
  * isNumber 判断是否是number类型
- * @version 1.0.1
+ * @version 1.0.2
  * @param val 要判断的变量
  * @category isNumber
  * @example

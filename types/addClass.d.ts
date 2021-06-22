@@ -1,6 +1,6 @@
 /**
  * addClass 添加class类名
- * @version 1.0.1
+ * @version 1.0.2
  * @param el THML元素
  * @param cls class类名
  * @category addClass

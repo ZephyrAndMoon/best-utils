@@ -1,6 +1,6 @@
 {
-  "name": "best-utils",
-  "version": "1.0.1",
+  "name": "chenkl-utils",
+  "version": "1.0.2",
   "description": "the best utils for me",
   "keywords": [
     "tools",
@@ -35,8 +35,7 @@
     "test:prod": "npm run lint && npm run test -- --no-cache",
     "doc": "typedoc --options typedoc.json",
     "new": "node script/new.js",
-    "clean": "npx rimraf node_modules",
-    "prepare": "husky install"
+    "clean": "npx rimraf node_modules"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",

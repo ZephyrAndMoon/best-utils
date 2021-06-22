@@ -3,7 +3,7 @@ import { trim } from './.helper'
 
 /**
  * removeClass 移除某个class类名
- * @version 1.0.1
+ * @version 1.0.2
  * @param el THML元素
  * @param cls class类名
  * @category removeClass

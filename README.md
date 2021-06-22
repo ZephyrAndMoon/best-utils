@@ -21,26 +21,26 @@
 
 #### npm:
 
-`npm i best-utils`
+`npm i chenkl-utils`
 
 ##### 全部加载（webpack、RequireJS、SeaJS 等）：
 
 ```js
-var utils = require("best-utils")
+var utils = require("chenkl-utils")
 var result = utils.isNumber(1)
 ```
 
 #### es6
 
 ```js
-import utils from "best-utils"
+import utils from "chenkl-utils"
 var result = utils.isNumber(1)
 ```
 
 ### 按需加载
 
 ```js
-import isNumber from "best-utils/lib/isNumber"
+import isNumber from "chenkl-utils/lib/isNumber"
 var result = isNumber(1)
 ```
 

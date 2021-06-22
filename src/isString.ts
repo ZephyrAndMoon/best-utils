@@ -2,7 +2,7 @@ import { is } from './.helper'
 
 /**
  * isString 判断是否是string类型
- * @version 1.0.1
+ * @version 1.0.2
  * @param val 要判断的变量
  * @category isString
  * @example
